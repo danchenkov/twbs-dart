@@ -99,6 +99,7 @@ GEM
     erubi (1.12.0)
     execjs (2.9.1)
     ffi (1.15.5)
+    foreman (0.87.2)
     globalid (1.2.1)
       activesupport (>= 6.1)
     google-protobuf (3.24.3-x86_64-darwin)
@@ -150,7 +151,7 @@ GEM
     psych (5.1.0)
       stringio
     public_suffix (5.0.3)
-    puma (5.6.7)
+    puma (6.3.1)
       nio4r (~> 2.0)
     racc (1.7.1)
     rack (2.2.8)
@@ -248,11 +249,12 @@ DEPENDENCIES
   capybara
   dartsass-rails (~> 0.5.0)
   debug
+  foreman
   importmap-rails
   jbuilder
   pg (~> 1.1)
   propshaft
-  puma (~> 5.0)
+  puma (~> 6.0)
   rails (~> 7.0.8)
   redis (~> 4.0)
   selenium-webdriver
@@ -265,4 +267,4 @@ RUBY VERSION
    ruby 3.2.2p53
 
 BUNDLED WITH
-   2.3.26
+   2.4.10
