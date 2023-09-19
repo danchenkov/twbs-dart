@@ -1,5 +1,10 @@
 # README
 
+**Benchmark**: 0-2s (almost immediate, no need to page update)
+**Purpose:** avoid Node and Sprockets, use `dartsass` and `esbuild`
+**Asset pipeline:** propshaft, importmaps
+**Technologies:** foreman, assets bundling with node, bootstrap from node_modules
+
 I am trying to choose the best of at least approproate Asset Pipeline for my apps.
 
 The project is using Bootstrap 5, not so much for styles and perks, but mainly because it illustrates the use of external library with JS and CSS components. JS part has dependency on popper.js and CSS part has optional config for Sass.
@@ -7,10 +12,10 @@ The project is using Bootstrap 5, not so much for styles and perks, but mainly b
 | Technology      | Description                   |
 | --------------- | ----------------------------- |
 | Asset Pipeline  | propshaft                     |
-| Bootstrap       | gem                           |
-| Sass processing | dartsass-rails                |
+| Bootstrap       | source                        |
+| Sass processing | dartsass (standalone)         |
 | CSS minificaton | propshaft                     |
-| JS minification | -                             |
+| JS minification | esbuild (standalone)          |
 | Naming          | importmaps                    |
 | Bundling        | deemed unnecessary for http/2 |
 

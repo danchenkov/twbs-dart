@@ -241,7 +241,6 @@ GEM
     zeitwerk (2.6.11)
 
 PLATFORMS
-  x86_64-darwin-21
   x86_64-darwin-22
 
 DEPENDENCIES
@@ -250,7 +249,7 @@ DEPENDENCIES
   capybara
   dartsass-rails (~> 0.5.0)
   debug
-  foreman
+  foreman (~> 0.87.2)
   importmap-rails
   jbuilder
   pg (~> 1.1)

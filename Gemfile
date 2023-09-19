@@ -48,7 +48,7 @@ gem "bootsnap", require: false
 # One needs foreman / dartsass to watch sass changes in development
 # [https://dev.to/coorasse/rails-7-bootstrap-5-and-importmaps-without-nodejs-4g8]
 
-gem "foreman"
+gem "foreman", "~> 0.87.2"
 
 gem "dartsass-rails", "~> 0.5.0"
 
