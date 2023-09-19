@@ -1,7 +1,7 @@
 # README
 
 **Benchmark**: 0-2s (almost immediate, no need to page update)
-**Purpose:** avoid Node and Sprockets, use `dartsass` and `esbuild`
+**Purpose:** move to proshaft, but avoid using Node, use `dartsass` and `esbuild`
 **Asset pipeline:** propshaft, importmaps
 **Technologies:** foreman, assets bundling with node, bootstrap from node_modules
 
