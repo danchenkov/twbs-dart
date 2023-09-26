@@ -18,3 +18,5 @@ document.addEventListener("turbo:load", function () {
 	//   frame.loaded.then(() => frame.scrollTo(0, frame.scrollHeight))
 	// }
 })
+import "trix"
+import "@rails/actiontext"

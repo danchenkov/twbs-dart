@@ -43,7 +43,7 @@ gem "tzinfo-data", platforms: %i[mingw mswin x64_mingw jruby]
 gem "bootsnap", require: false
 
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
-# gem "image_processing", "~> 1.2"
+gem "image_processing", "~> 1.2"
 
 # One needs foreman / dartsass to watch sass changes in development
 # [https://dev.to/coorasse/rails-7-bootstrap-5-and-importmaps-without-nodejs-4g8]
@@ -51,8 +51,6 @@ gem "bootsnap", require: false
 gem "foreman", "~> 0.87.2"
 
 gem "dartsass-rails", "~> 0.5.0"
-
-gem "bootstrap", "~> 5.3"
 
 gem "devise", "~> 4.9"
 
