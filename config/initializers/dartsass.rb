@@ -1,6 +1,6 @@
 Rails.application.config.dartsass.builds = {
   "application.scss" => "application.css.erb",
-  "vendor/twbs.scss" => "bootstrap.css"
+  "bootstrap.scss" => "bootstrap.css"
 }
 #
 ## By default, sass is invoked with `--style=compressed --no-source-map`
